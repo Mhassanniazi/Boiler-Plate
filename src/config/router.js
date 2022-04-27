@@ -72,5 +72,8 @@ function AppRouter() {
         </Router>
     )
 }
+// for version 6
+// <Route auth={false} exact path="/" element={<PublicRoute component={AdminDashboard} />} />
+
 
 export default AppRouter;
